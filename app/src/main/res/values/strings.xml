@@ -2,4 +2,13 @@
     <string name="app_name">LatihanFragment</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="namapembeli">Nama Pembeli :</string>
+    <string name="namabarang">Nama Barang :</string>
+    <string name="jumlahbarang">Jumlah Barang :</string>
+    <string name="hargabarang">"Harga Barang Rp. "</string>
+    <string name="uangbayar">"Uang Bayar Rp. "</string>
+    <string name="totalbelanja">"Total Belanja Rp. "</string>
+    <string name="uangkembali">"Uang Kembali Rp. "</string>
+    <string name="bonus">"Bonus Rp. "</string>
+    <string name="keterangan">Keterangan</string>
 </resources>

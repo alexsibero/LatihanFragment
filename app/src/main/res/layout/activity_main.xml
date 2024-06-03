@@ -8,21 +8,18 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <Button
-        android:id="@+id/buttonChange"
+    <FrameLayout
+        android:id="@+id/fragmentContainer1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ganti Fragment" />
+        android:layout_height="400dp"
+        android:padding="25dp"
+        tools:ignore="MissingConstraints" />
 
     <FrameLayout
-        android:id="@+id/fragmentContainer"
+        android:id="@+id/fragmentContainer2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="400dp"
+        android:padding="25dp"
         tools:ignore="MissingConstraints" />
 
 </LinearLayout>
