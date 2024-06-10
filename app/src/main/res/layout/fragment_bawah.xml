@@ -9,16 +9,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
+
         android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
+            style="@style/TombolMerah"
             android:text="@string/totalbelanja" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            style="@style/TombolMerah"
             android:hint="Isikan Total Belanja"/>
 
     </LinearLayout>
@@ -77,10 +81,10 @@
         android:gravity="center">
 
         <Button
-            android:text="Reset"
-            android:layout_height="wrap_content"
             android:layout_width="150dp"
-            android:layout_marginLeft="30dp"/>
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Reset" />
 
         <Button
             android:text="Kembali"

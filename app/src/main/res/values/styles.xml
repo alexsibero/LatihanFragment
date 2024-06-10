@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TombolMerah" parent="" >
+        <item name="android:textAlignment">textStart</item>
+        <item name="color">#DC143C</item>
+    </style>
+</resources>
